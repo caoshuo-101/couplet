@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# 数据集
+data/
+*.h5
+*.hdf5
+
+# 模型文件
+*.pth
+*.pt
+*.h5
+*.pkl
+
+# 日志文件
+logs/
+*.log
+
+# 其他
+.DS_Store
