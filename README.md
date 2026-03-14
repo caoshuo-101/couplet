@@ -25,26 +25,3 @@ Seq2Seq架构：编码器-解码器结构
 主要长度分布：7字联(46.21%)、5字联(9.86%)、12字联(11.85%)
 
 词表大小：9,127 个唯一字符
-
-项目结构
-text
-couplet/
-├── configs/
-│   └── config.py          # 配置文件
-├── dataset/
-│   ├── dataset.py         # 数据集类
-│   └── create_subset.py   # 数据子集创建工具
-├── models/
-│   └── seq2seq.py         # Seq2Seq模型定义
-├── train/
-│   └── trainer.py         # 训练器
-├── utils/
-│   ├── tokenizer.py       # 分词器
-│   ├── data_analyzer.py   # 数据分析工具
-│   └── evaluator.py       # 评估工具
-├── test/
-│   └── test_model.py      # 模型测试
-├── interactive_test.py    # 交互式测试脚本
-├── main.py                # 主程序入口
-├── requirements.txt       # 依赖包
-└── README.md              # 项目说明
