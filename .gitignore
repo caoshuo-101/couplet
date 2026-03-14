@@ -16,7 +16,7 @@ venv.bak/
 .idea_modules/
 
 # 数据集
-data/
+dataset/
 *.h5
 *.hdf5
 
