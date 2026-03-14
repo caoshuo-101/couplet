@@ -16,7 +16,10 @@ venv.bak/
 .idea_modules/
 
 # 数据集
-dataset/
+dataset/*.csv
+dataset/*.h5
+dataset/*.hdf5
+!dataset/*.py
 *.h5
 *.hdf5
 
